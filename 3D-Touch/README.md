@@ -12,7 +12,7 @@
 
 在支持 3D Touch 的设备上，Quick Actions 可以让用户更快，更少的操作步骤去完成他们最常做的事情，其中这么多操作可以通过主屏幕直接完成。比如用力地长按微信图标，会弹出诸如"扫一扫"和"我的二维码"等常用功能，这个我在加好友的情况下经常会用到，不是"扫"别人就是被别人"扫"。然后这是它的官方介绍，[3D Touch - iOS - Apple Developer](https://developer.apple.com/ios/3d-touch/)。
 
-本文的 Demo 已放到 GitHub 上，Demo 请到 [GarveyCalvin/**iOS-Travel **](<https://github.com/GarveyCalvin/iOS-Travel>)下载。
+本文的 Demo 已放到 GitHub 上，Demo 请到 [GarveyCalvin/**iOS-Travel **](https://github.com/GarveyCalvin/iOS-Travel/tree/master/3D-Touch)下载。
 
 >  支持的设备是在 iPhone 6S 和 6S Plus 及后续出的 iPhone 系列，系统则是从 iOS 9.0 开始支持 3D Touch。
 
@@ -93,25 +93,31 @@
 
 
 
-##  总结
+## 资料
 
-3D Touch 的应用范围不止这些，还有 Peek and Pop 和 Pressure Sensitivity，在以后或许会补上这系列的文章。
+本文的 Demo 已放到 GitHub 上，Demo 请到  [GarveyCalvin/**iOS-Travel **](https://github.com/GarveyCalvin/iOS-Travel/tree/master/3D-Touch)下载。
+
+### 环境
+
+Xcode: Version 10.1 (10B61)
+
+测试机型：iPhone XS Max
+
+测试系统：iOS 12.1
+
+
+
+##  总结
 
 无论是在 info.plist 或 代码 创建 Quick Actions 都比较简单，没什么很复杂的逻辑，学起来很容易。
 
 Quick Actions 的使用情况还是比较多的，就我而言，我经常会用支付宝和微信放出来的"扫一扫"，支付宝的"乘车码"等等。
 
-
-
-本文的 Demo 已放到 GitHub 上，Demo 请到 [GarveyCalvin/**iOS-Travel **](https://github.com/GarveyCalvin/iOS-Travel)下载。
-
-Info.plist 创建的 [Demo](https://github.com/GarveyCalvin/iOS-Travel/3D-Touch/GC3DTouch)。
-
-代码创建的 [Demo](https://github.com/GarveyCalvin/iOS-Travel/3D-Touch/GC3DTouch/GC3DTouchCode)。
+3D Touch 的应用范围不止这些，还有 Peek and Pop 和 Pressure Sensitivity，在以后或许会补上这系列的文章。
 
 
 
-##声明
+## 声明
 
 博文作者：GarveyCalvin
 博文出处：[http://www.cnblogs.com/GarveyCalvin/](http://www.cnblogs.com/GarveyCalvin)
